@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">CursoKotlinDesde0</string>
+    <!--    activity_main-->
+    <string name="primera_app">Primera App</string>
+    <!--    activity_primera_app-->
+    <string name="pulsame">Pulsame</string>
+    <string name="insert_name">Inserta nombre</string>
+    <!--    activity_IMC_App-->
+    <string name="imc_app">IMC App</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="altura">Altura</string>
+    <string name="peso">Peso</string>
+    <string name="restar_peso">restar_peso</string>
+    <string name="edad">Edad</string>
+    <string name="tu_imc_es">Tu IMC es:</string>
+    <string name="error">error</string>
+
+    <!--    sealed class-->
+    <string name="sealed_class">Sealed Class</string>
+
+    <!--    todo_app-->
+    <string name="todo_app">Todo app</string>
+    <string name="todo_titulo">Bienvenido, Fer</string>
+    <string name="todo_categorias">Categorías</string>
+    <string name="todo_personal">Personal</string>
+    <string name="todo_negocio">Negocio</string>
+    <string name="todo_otros">Otros</string>
+    <string name="todo_tareas">Tareas</string>
+    <string name="todo_add_tarea">Añade la tarea</string>
+    <string name="todo_crear_tarea">Crear tarea</string>
+
+    <!--    dogList-->
+    <string name="dog_lista_de_perros_app">Lista de perros APP</string>
+
+    <!--    SuperHero List-->
+    <string name="super_hero_list">Super Hero List</string>
+    <string name="no_info">Sin información</string>
+
+    <!--    Ajustes-->
+    <string name="ajustesxml">Ajustes</string>
+    <string name="modo_oscuro">Modo oscuro</string>
+    <string name="descripcion_modo_dark">Activa el modo oscuro para un cambio visual</string>
+    <string name="bluetooth">Activar Bluetooth</string>
+    <string name="descripcion_bluetooth">Cocnectar periféricos sin cables</string>
+    <string name="vibrar">Vibrar en la llamada</string>
+    <string name="up_volumen">Subir volumen</string>
+
+
+</resources>

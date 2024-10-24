@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    Base application theme-->
+    <style name="AppTeme2" parent="Widget.Material3.Slider">
+        <item name="colorPrimary">@color/peso_bajo</item>
+        <item name="colorPrimaryDark">@color/obesidad</item>
+        <item name="colorAccent">#0D7AAC</item>
+
+    </style>
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_prueba_da"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".pruebas.envioparametros.PruebaDaActivity">
+
+    <TextView
+        android:id="@+id/tv_plato_da"
+        style="@style/textos_pruebas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/plato"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_get_plato_da"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:autofillHints="name"
+        android:hint="@string/hint_plato"
+        android:inputType="text"
+        android:maxLength="40"
+        android:maxLines="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_plato_da"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/tv_porque_da"
+        style="@style/textos_pruebas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/porque"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_get_plato_da" />
+
+    <EditText
+        android:id="@+id/et_get_porque_da"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:autofillHints="name"
+        android:hint="@string/hint_porque"
+        android:inputType="text"
+        android:maxLength="25"
+        android:maxLines="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_porque_da"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <RadioGroup
+        android:id="@+id/rg_postre_da"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="#ECE4E4"
+        android:checkedButton="@id/rb_siempre_da"
+        app:layout_constraintEnd_toStartOf="@id/ll_opciones_da"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_get_porque_da">
+
+        <TextView
+            style="@style/textos_pruebas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/postre" />
+
+        <RadioButton
+            android:id="@+id/rb_siempre_da"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/siempre"
+            tools:ignore="VisualLintButtonSize" />
+
+        <RadioButton
+            android:id="@+id/rb_nunca_da"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/nunca"
+            tools:ignore="VisualLintButtonSize" />
+
+        <RadioButton
+            android:id="@+id/rb_aveces_da"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/aveces"
+            tools:ignore="VisualLintButtonSize" />
+
+        <RadioButton
+            android:id="@+id/rb_casi_da"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/casi"
+            tools:ignore="VisualLintButtonSize" />
+
+    </RadioGroup>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_opciones_da"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="#ECE4E4"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/rg_postre_da"
+        app:layout_constraintTop_toBottomOf="@id/et_get_porque_da">
+
+        <TextView
+            style="@style/textos_pruebas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/elege_postre" />
+
+        <CheckBox
+            android:id="@+id/cb_helado_da"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="@string/helado" />
+
+        <CheckBox
+            android:id="@+id/cb_fruta_da"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="@string/fruta" />
+
+        <CheckBox
+            android:id="@+id/cb_tarta_da"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="@string/tarta"
+            tools:ignore="VisualLintButtonSize" />
+
+        <CheckBox
+            android:id="@+id/cb_cafe_da"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="@string/cafe"
+            tools:ignore="VisualLintButtonSize" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_enviar_da"
+        style="@style/botones_inicio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="VisualLintButtonSize" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

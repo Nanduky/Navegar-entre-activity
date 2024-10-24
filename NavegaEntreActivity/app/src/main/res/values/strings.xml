@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">NavegaEntreActivity</string>
+
+    <string name="pon_nombre">Pon tú nombre</string>
+    <string name="pon_apellido">Pon tú apellido</string>
+    <string name="enviar">Enviar</string>
+
+
+    <!--    Envío Parámetros-->
+    <string name="envio_parametros">Envío Parámetros</string>
+    <string name="elege_varios">Puedes elegir varios</string>
+    <string name="rb_op01">opción 1</string>
+    <string name="rb_op02">opción 2</string>
+    <string name="rb_op03">opción 3</string>
+    <string name="cb_op01">Elige 01</string>
+    <string name="cb_op02">Elige 02</string>
+    <string name="cb_op03">Elige 03</string>
+    <string name="cb_op04">Elige 04</string>
+    <string name="cb_op05">Elige 05</string>
+    <string name="cb_op06">Elige 06</string>
+    <string name="cb_op07">Elige 07</string>
+    <string name="cb_op08">Elige 08</string>
+    <!--    Prueba 04-->
+    <string name="prueba_04">Prueba 04</string>
+    <string name="plato">¿Cúal es tu plato favorito?</string>
+    <string name="hint_plato">Tu plato favorito</string>
+    <string name="porque">"Esplicanos porque."</string>
+    <string name="elige">Elige postre</string>
+    <string name="hint_porque">Por que...</string>
+    <string name="postre">¿Te gusta los postres?</string>
+    <string name="siempre">Si, siempre</string>
+    <string name="nunca">No, nunca.</string>
+    <string name="aveces">Algunas veces</string>
+    <string name="elege_postre">Elige postres</string>
+    <string name="helado">Helado</string>
+    <string name="fruta">Fruta</string>
+    <string name="tarta">Tarta</string>
+    <string name="cafe">Café</string>
+    <string name="casi">Casi nunca</string>
+
+    <!--    RecyclerView-->
+    <string name="recyclerview">RecyclerView</string>
+    <string name="recyclerview2">RecyclerView 02</string>
+    <string name="texto_pruebas">Texto pruebas</string>
+
+</resources>

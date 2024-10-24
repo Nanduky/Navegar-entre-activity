@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:id="@+id/todo_dialogo"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/todo_background_todo_app"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_tarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:hint="@string/todo_add_tarea"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="#A8A4A4" />
+
+    <RadioGroup
+        android:id="@+id/rg_categorias"
+        android:checkedButton="@id/rb_Negocios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_Negocios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonTint="@color/todo_trabajo_categoria"
+            android:text="@string/todo_negocio"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/rb_personal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonTint="@color/todo_personal_categoria"
+            android:text="@string/todo_personal"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/rb_otras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonTint="@color/todo_otros_categoria"
+            android:text="@string/todo_otros"
+            android:textColor="@color/white" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_add_tarea"
+        app:cornerRadius="8dp"
+        android:layout_width="match_parent"
+        android:text="@string/todo_crear_tarea"
+        android:backgroundTint="@color/todo_accent"
+        android:layout_height="wrap_content" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

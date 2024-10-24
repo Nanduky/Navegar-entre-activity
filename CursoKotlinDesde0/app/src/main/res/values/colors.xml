@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="texto_hint">#969090</color>
+    <color name="background_apps">#F49999</color>
+    <color name="teal_200">#4DB6AC</color>
+
+
+
+    <!-- IMC calculate -->
+    <color name="background_component">#101e33</color>
+    <color name="background_component_selected">#ff111328</color>
+    <color name="background_app">#0e0b20</color>
+    <color name="background_button">#eb1555</color>
+    <color name="title_text">#ff8d8e98</color>
+    <color name="background_fab">#FF6200EE</color>
+
+    <color name="peso_bajo">#FFEB3B</color>
+    <color name="peso_normal">#4CAF50</color>
+    <color name="peso_sobrepeso">#FF5722</color>
+    <color name="obesidad">#FF1100</color>
+
+
+    <!--TodoApp-->
+    <color name="todo_background_card">#FF081A4A</color>
+    <color name="todo_background_disabled">#787878</color>
+    <color name="todo_background_todo_app">#FF2D4993</color>
+    <color name="todo_subtitulo_text">#959595</color>
+    <color name="todo_accent">#E91E63</color>
+
+    <color name="todo_trabajo_categoria">#FF9800</color>
+    <color name="todo_personal_categoria">#00BCD4</color>
+    <color name="todo_otros_categoria">#4CAF50</color>
+
+    <!--SuperHeroApp-->
+    <color name="superhero_item_nombre">#73673AB7</color>
+
+
+    <color name="superhero_stat_inteligencia">#00ff00</color>
+    <color name="superhero_stat_fuerza">#FF0000</color>
+    <color name="superhero_stat_velocidad">#e88b00</color>
+    <color name="superhero_stat_durabilidad">#03a9f4</color>
+    <color name="superhero_stat_poder">#FFEB3B</color>
+    <color name="superhero_stat_combate">#673ab7</color>
+
+<!--    Ajustes-->
+    <color name="settings_text_title">#000000</color>
+
+</resources>

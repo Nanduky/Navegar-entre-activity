@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="blue">#2F84ED</color>
+    <color name="gris_coche">#776565</color>
+    <color name="negro_coche">#090909</color>
+    <color name="rojo_coche">#D31515</color>
+    <color name="azul_coche">#16A0DF</color>
+    <color name="verde_coche">#128C1E</color>
+    <color name="amarillo_coche">#B9F608</color>
+</resources>

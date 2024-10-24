@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_prueba05"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cardview_compat_inset_shadow"
+        android:padding="20dp"
+        tools:context=".pruebas.prueba05.Prueba05ResultActivity">
+
+        <TextView
+            android:id="@+id/tv_nombre05"
+            style="@style/textos_pruebas"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/altura_min"
+            android:layout_marginTop="80dp"
+            android:text="@string/pon_nombre"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/et_get_nombre05"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/altura_min"
+            android:autofillHints=""
+            android:hint="@string/pon_nombre"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nombre05"
+            tools:ignore="DuplicateSpeakableTextCheck,VisualLintTextFieldSize" />
+
+        <View
+            android:id="@+id/view01"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_get_nombre05" />
+
+
+        <TextView
+            android:id="@+id/tv_apelledo05"
+            style="@style/textos_pruebas"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/altura_min"
+            android:layout_marginTop="25dp"
+            android:text="@string/pon_apellido"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view01" />
+
+        <EditText
+            android:id="@+id/et_get_apellido05"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/altura_min"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/pon_apellido"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_apelledo05"
+            tools:ignore="DuplicateSpeakableTextCheck,VisualLintTextFieldSize" />
+
+
+        <View
+            android:id="@+id/view02"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_get_apellido05" />
+
+
+        <RadioGroup
+            android:id="@+id/rg_prueba05"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:checkedButton="@id/rb_op01"
+            app:layout_constraintEnd_toStartOf="@+id/layout_option05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view02">
+
+            <TextView
+                style="@style/textos_pruebas"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/altura_min"
+                android:text="@string/elige" />
+
+            <RadioButton
+                android:id="@+id/rb_op01"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/altura_min"
+                android:text="@string/rb_op01" />
+
+            <RadioButton
+                android:id="@+id/rb_op02"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/altura_min"
+                android:text="@string/rb_op02"
+                tools:ignore="VisualLintButtonSize" />
+
+            <RadioButton
+                android:id="@+id/rb_op03"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/altura_min"
+                android:text="@string/rb_op03"
+                tools:ignore="VisualLintButtonSize" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/layout_option05"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/rg_prueba05"
+            app:layout_constraintTop_toBottomOf="@+id/et_get_apellido05">
+
+            <TextView
+                android:id="@+id/tv_elige05"
+                style="@style/textos_pruebas"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/altura_min"
+                android:text="@string/elege_varios" />
+
+            <CheckBox
+                android:id="@+id/cb_op01"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/altura_min"
+                android:text="@string/cb_op01"
+                tools:ignore="VisualLintButtonSize" />
+
+            <CheckBox
+                android:id="@+id/cb_op02"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/altura_min"
+                android:text="@string/cb_op02"
+                tools:ignore="VisualLintButtonSize" />
+
+            <CheckBox
+                android:id="@+id/cb_op03"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/altura_min"
+                android:text="@string/cb_op03"
+                tools:ignore="VisualLintButtonSize" />
+
+            <CheckBox
+                android:id="@+id/cb_op04"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/altura_min"
+                android:text="@string/cb_op04"
+                tools:ignore="VisualLintButtonSize" />
+
+            <CheckBox
+                android:id="@+id/cb_op05"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/altura_min"
+                android:text="@string/cb_op05"
+                tools:ignore="VisualLintButtonSize" />
+
+            <CheckBox
+                android:id="@+id/cb_op06"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/altura_min"
+                android:text="@string/cb_op06"
+                tools:ignore="VisualLintButtonSize" />
+
+            <CheckBox
+                android:id="@+id/cb_op07"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/altura_min"
+                android:text="@string/cb_op07"
+                tools:ignore="VisualLintButtonSize" />
+
+            <CheckBox
+                android:id="@+id/cb_op08"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/altura_min"
+                android:text="@string/cb_op08"
+                tools:ignore="VisualLintButtonSize" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_enviar05"
+            style="@style/botones_inicio"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/altura_min"
+            android:text="@string/enviar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="VisualLintButtonSize" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
