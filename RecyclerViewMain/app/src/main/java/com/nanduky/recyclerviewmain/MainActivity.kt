@@ -7,9 +7,10 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.nanduky.recyclerviewmain.adapter.CalendarAdapter
+import com.nanduky.recyclerviewmain.clases.CalendarProviderC
 
 class MainActivity : AppCompatActivity() {
-    val rvCalendar = findViewById<RecyclerView>(R.id.rvCalendar)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -25,6 +26,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initRecyclerView() {
+        val rvCalendar = findViewById<RecyclerView>(R.id.rvCalendar)
         rvCalendar.layoutManager = LinearLayoutManager(this)
+        rvCalendar.adapter = CalendarAdapter(CalendarProviderC.listCalendar)
     }
 }
